@@ -4,23 +4,63 @@
 }
 .root{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
-    background-color: black;
+    background-color: #E5E5E5;;
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.container .wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.container .wrapper a {
+    color: #333333;
+    font-size: 14px;
 }
 .wrapper{
     width: 1110px;
 }
 .header{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 .header span {
     margin-left: 20px;
     font-weight: 700;
     font-size: 36px;
     color: #66C05D;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+} 
+.header .tel{
+    display: flex;
+    align-items: center;
+    gap: 67px
+}
+.header .tel p {
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.header .tel button{
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+    height: 40px;
+    width: 170px;
+}
+.line{
+    border: 1px solid #EFEFEF;;
+    width: 100%;
+    margin-top: 20px;
+}
+.main-view{
+   background-image: url(/img/Rectangle\ 2.png);
 }
