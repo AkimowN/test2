@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');* {
     font-family: 'Roboto', sans-serif;
 }
 .root{
@@ -67,9 +66,168 @@
     gap: 40px;
     margin-top: 30px;
 }
-.main-view {
+.main {
     background-image: url(/img/Rectangle\ 2.png);
     width: 100%;
     height: 604px;
     margin-top: 25px;
+    display: flex;
+    justify-content: center;
 }
+.main .wrapper {
+    margin-top: 192px;      
+}
+.main .wrapper h2{
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+}
+.main .wrapper p{
+    margin-top: 50px;
+    color: white;
+    font-size: 14px;
+}
+.main .wrapper button{
+    font-size: 14px;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: white;
+    Width: 170px;
+    Height: 40px;
+    margin-top: 50px;  
+}
+.main-view {
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 954px;
+    display: flex;
+    justify-content: center;
+}
+.main-view p{
+    font-size: 24px;
+    font-family: 700;
+    margin-top: 80px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 38px;
+}
+.card{
+    height: 363px;
+    width: 255px;
+   background-color: white;
+}
+.card img {
+    margin-top: 25px;
+}
+.card h2 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.card p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 21px;
+}
+.card button{
+    margin-top: 20px;
+    background: #66C05D;
+    border-radius: 30px;
+    width: 130px;
+    height: 35px;
+    color: white;
+    font-size: 14px;
+}
+.bonus {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: start;
+    gap: 30px;
+}
+.bonus .card {
+    background-color: #66C05D;
+    width: 540px;
+    height: 212px;
+    margin-top: 100px;
+}
+.bonus .card h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.bonus .card p {
+    color: white;
+    font-size: 14px;
+    margin-left: 40px;
+}
+.bonus .card img {
+    margin: 0;
+    margin-left: 355px;
+    margin-top: -52.73px;
+}
+.bonus .card input{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 225px;
+    height: 35px;
+    margin-left: 40px;
+}
+.bonus .card button{
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    height: 35px;
+    width: 170px;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.social-network{
+    display: flex;
+    gap: 28px;
+    margin-top: 52px;
+}
+.adress{
+    display: flex;
+    align-items: center;
+}
+.adress h2{
+    margin-left: 222px;
+}
+.adress p{
+    margin-left: 105px;
+}
+.adress button{
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+    height: 40px;
+    width: 170px;
+    margin-left: 30px;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 64px;
+    margin-top: 53px;
+
+}
+.end .footer{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+
+
